@@ -1,0 +1,38 @@
+.carouselSection {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carouselContent {
+  margin-left: 3rem;
+}
+
+.carouselContent h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: aliceblue;
+  margin-bottom: 1rem;
+}
+
+.caruoselButtonSection {
+  margin-top: 1rem;
+}
+
+.caruoselButtonSection button {
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  margin: 0 1rem;
+}

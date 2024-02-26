@@ -1,0 +1,102 @@
+nav {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+}
+
+.scrolled {
+  background-color: #fff;
+}
+
+li {
+  font-weight: bold;
+}
+
+.logo {
+  width: auto;
+  height: 2rem;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.iconSection i {
+  font-size: 1.5rem;
+}
+
+.hrStyle {
+  width: 1px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.navContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContact i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.navContactForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navContactForm button {
+  font-weight: 500;
+}
+
+.navContact span {
+  font-weight: 500;
+}
+
+.navContact p {
+  font-weight: 500;
+  color: #000;
+}
+
+/* Top Nav bar */
+
+.topNavbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+.topNavbarWrapper span {
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
