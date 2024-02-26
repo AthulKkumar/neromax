@@ -6,6 +6,8 @@ import Info from "./components/Info/Info";
 import Team from "./components/Team/Team";
 import Process from "./components/Proccess/Process";
 import CaseStudy from "./components/CaseStudy/CaseStudy";
+import Opinion from "./components/UserOpinion/Opinion";
+import Article from "./components/Article/Article";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +21,8 @@ function App() {
       <Team />
       <Process />
       <CaseStudy />
+      <Opinion />
+      <Article />
     </>
   );
 }

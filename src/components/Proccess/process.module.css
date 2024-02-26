@@ -115,6 +115,11 @@
   gap: 1rem;
 }
 
+.processCardDetailsContent h5 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
 .processCardDetailsContent div {
   flex: 1;
 }

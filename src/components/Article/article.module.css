@@ -1,0 +1,113 @@
+.superArticleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.articleWrapper h3 {
+  font-size: medium;
+  font-weight: 700;
+  color: #2e7de0;
+}
+
+.articleHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.articleHeader button {
+  border: 1px solid #2e7de0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.articleWrapper h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.articleCardWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.articleCard {
+  background-color: aliceblue;
+}
+
+.articleCard img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.articleCardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.articleCardBody h5 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.articleCard button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  width: fit-content;
+  background-color: transparent;
+}
+
+.supercompanyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.companyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+}
+
+.companyWrapper img {
+}

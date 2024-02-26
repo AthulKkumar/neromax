@@ -28,10 +28,10 @@ const CaseStudy = () => {
           <button>View More</button>
         </section>
         <section className={styles.casestudyOptions}>
+          <p>All</p>
+          <p>Desgin</p>
           <p>Technology</p>
-          <p>Technology</p>
-          <p>Technology</p>
-          <p>Technology</p>
+          <p>Development</p>
         </section>
         <section className={styles.imageCardWrapper}>
           {caseStudiesData.map((data, index) => {
