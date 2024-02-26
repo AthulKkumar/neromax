@@ -1,4 +1,8 @@
 import React from "react";
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import styles from "./team.module.css";
 
@@ -18,6 +22,7 @@ const Team = () => {
       <h1>Our Leadership Team</h1>
       <section className={styles.cardWrapper}>
         <section className={styles.teamCardDesign}></section>
+
         {teamData.map((value, indx) => {
           return (
             <div className={styles.card} key={indx}>

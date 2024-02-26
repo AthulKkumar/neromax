@@ -32,12 +32,26 @@
 .processCardWrapper {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 100%;
   transition: all 0.3s ease;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+.processCardWrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #ffffff80;
 }
 
 .processCard {
@@ -109,4 +123,5 @@
   width: auto;
   height: 40vh;
   object-fit: contain;
+  align-items: center;
 }

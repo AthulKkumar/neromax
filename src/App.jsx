@@ -5,6 +5,7 @@ import Carousel from "./components/Carousel/Carousel";
 import Info from "./components/Info/Info";
 import Team from "./components/Team/Team";
 import Process from "./components/Proccess/Process";
+import CaseStudy from "./components/CaseStudy/CaseStudy";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Info />
       <Team />
       <Process />
+      <CaseStudy />
     </>
   );
 }
