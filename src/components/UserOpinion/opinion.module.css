@@ -6,7 +6,7 @@
   /* width: 100vw; */
   background-color: #f5f5f5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #2e7de0 url(../../../public/world-map.png);
+  background: #2e7de0 url(/world-map.png);
   padding: 4rem 0;
 }
 

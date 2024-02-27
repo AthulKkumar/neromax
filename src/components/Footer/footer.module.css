@@ -28,6 +28,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+  flex-flow: row wrap;
 }
 
 .companyDetails section li {
@@ -43,4 +44,56 @@
 
 .companyDetails li {
   align-items: flex-start;
+}
+
+.footerInfo li {
+  display: flex;
+  align-items: start;
+  gap: 1.5rem;
+  font-size: small;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #ffffffc4;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footerInfo li:hover {
+  color: #2e7de0;
+}
+
+.footerInfo i {
+  font-size: 1.5rem;
+  color: #ffffffc4;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.communitySection {
+  font-weight: 700;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.communitySection span:hover {
+  width: fit-content;
+  color: #2e7de0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }

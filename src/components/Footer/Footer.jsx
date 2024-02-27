@@ -3,35 +3,40 @@ import React from "react";
 import styles from "./footer.module.css";
 
 const Footer = () => {
+  const companyDetails = ["About Us", "Blog", "Careers", "Contact Us"];
+  const services = ["Community", "Developers", "Mobile Apps", "Websites"];
+  const contact = ["Support", "Live Chat", "Customer Service"];
+  const Community = ["Blogs ", "Review", "Protected"];
   return (
     <div className={styles.footerWrapper}>
       <div className={styles.companyDetails}>
-        <section>
+        <section className={styles.footerInfo}>
           <h4>Company</h4>
 
-          <li>About Us</li>
-          <li>Blog</li>
-          <li>Careers</li>
-          <li>Contact Us</li>
+          {companyDetails.map((item) => {
+            return <li>{item}</li>;
+          })}
         </section>
-        <section>
-          <h4>For Foodies</h4>
-
-          <li>Community</li>
-          <li>Developers</li>
-          <li>Mobile Apps</li>
+        <section className={styles.footerInfo}>
+          <h4>Services</h4>
+          {services.map((item) => {
+            return <li>{item}</li>;
+          })}
         </section>
-        <section>
+        <section className={styles.footerInfo}>
           <h4>Contact</h4>
-
-          <li>Support</li>
-          <li>Live Chat</li>
-          <li>Customer Service</li>
+          {contact.map((item) => {
+            return <li>{item}</li>;
+          })}
         </section>
-        <section>
+        <section className={styles.footerInfo}>
           <h4>Community</h4>
 
-          <li>Blogs | Review | Protected</li>
+          <div className={styles.communitySection}>
+            {Community.map((item) => {
+              return <span>{item}</span>;
+            })}
+          </div>
           <li>
             <div class="input-group mb-3 mt-2">
               <input
@@ -62,6 +67,7 @@ const Footer = () => {
       </div>
       <div className={styles.copyright}>
         <p>&copy; 2021 Foodies. All Rights Reserved</p>
+        <p>Sitemap Privacy Policy Terms & Conditions</p>
       </div>
     </div>
   );
