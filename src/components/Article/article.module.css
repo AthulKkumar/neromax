@@ -41,6 +41,12 @@
   font-weight: 500;
 }
 
+.articleHeader button:hover {
+  background-color: #2e7de0;
+  color: white;
+  transition: 0.5s;
+}
+
 .articleWrapper h1 {
   font-size: 2rem;
   font-weight: bolder;
@@ -110,4 +116,10 @@
 }
 
 .companyWrapper img {
+  filter: grayscale(100%);
+}
+
+.companyWrapper img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
 }

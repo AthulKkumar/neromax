@@ -53,7 +53,7 @@ const Article = () => {
         <section className={styles.articleCardWrapper}>
           {articles.map((article, index) => {
             return (
-              <div class={`card ${styles.articleCard}`}>
+              <div class={`card ${styles.articleCard}`} key={index}>
                 <img src={article.img} class="card-img-top" alt="..." />
                 <div class={`card-body p-3 ${styles.articleCardBody} `}>
                   <a href="#" class="btn btn-primary">
