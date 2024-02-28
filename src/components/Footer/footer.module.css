@@ -97,3 +97,59 @@
   font-weight: 500;
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .footerWrapper {
+    padding: 2rem 0;
+    width: 100vw;
+  }
+
+  .companyDetails {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 1rem;
+    gap: 2rem;
+    height: 100%;
+  }
+
+  .companyDetails section {
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .companyDetails h4 {
+    font-size: 1rem;
+  }
+
+  .footerInfo li {
+    font-size: small;
+  }
+
+  .communitySection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .communitySection span {
+    font-size: 1rem;
+  }
+
+  .footerInfo i {
+    font-size: 1.5rem;
+  }
+
+  .footerInfo h4 {
+    font-size: 1.5rem;
+  }
+
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

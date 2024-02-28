@@ -100,3 +100,17 @@ li {
   justify-content: center;
   gap: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .topNavbarWrapper {
+    padding: 0.5rem 0;
+  }
+
+  .topNavbarWrapper:first-child {
+    flex-direction: column;
+  }
+
+  .topNavbarWrapper span {
+    font-size: 0.8rem;
+  }
+}

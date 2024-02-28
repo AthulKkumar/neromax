@@ -65,7 +65,7 @@ const Process = () => {
         get this process right.
       </p>
       <ul className={styles.processCardWrapper}>
-        <div>
+        <div className={styles.processCardsWrapper}>
           {cardData.map((card, index) => {
             return (
               <div

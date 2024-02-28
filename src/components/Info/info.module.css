@@ -112,3 +112,29 @@ i {
   background-color: aliceblue;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .infoSection {
+    padding: 1rem 0;
+    align-items: center;
+  }
+  .infoSection h1 {
+    font-size: 2rem;
+    width: max-content;
+    padding: 0.5rem;
+  }
+  .infoCards {
+    width: 80%;
+  }
+  .card {
+    width: 100%;
+  }
+  .contactCard {
+    width: 95%;
+  }
+
+  .contactCard button {
+    margin-top: 1rem;
+    font-size: smaller;
+  }
+}

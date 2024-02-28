@@ -57,3 +57,26 @@
   padding: 1rem;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .superopinionWrapper {
+    padding: 2rem 0;
+    width: 100vw;
+  }
+
+  .opinionCardWrapper {
+    flex-wrap: wrap;
+  }
+
+  .opinionWrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .opinionCard {
+    width: 100%;
+  }
+
+  .opinionCard img {
+    width: 30%;
+  }
+}

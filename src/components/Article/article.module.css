@@ -123,3 +123,50 @@
   filter: grayscale(0%);
   transition: 0.5s;
 }
+
+@media screen and (max-width: 768px) {
+  .superArticleWrapper {
+    padding: 2rem 0;
+    width: 100vw;
+  }
+
+  .articleWrapper {
+    padding: 2rem 0;
+    width: 100vw;
+  }
+
+  .articleWrapper h3 {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .articleHeader {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .articleWrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .articleCardWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .articleCard img {
+    width: 100%;
+  }
+
+  .articleCard button {
+    width: 100%;
+  }
+
+  .companyWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

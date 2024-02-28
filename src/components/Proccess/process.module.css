@@ -130,3 +130,35 @@
   object-fit: contain;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .processWrapperPara {
+    width: 100%;
+  }
+  .processCardDiv {
+    width: 100%;
+  }
+  .processCardDetailsContent {
+    flex-direction: column;
+  }
+  .processCardDetailsContent div {
+    width: 100%;
+  }
+  .processcardDetails img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .processCardsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .processCardDetailsWrapper {
+    padding: 1rem;
+    width: min-content;
+  }
+}

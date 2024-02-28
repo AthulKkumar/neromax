@@ -148,3 +148,40 @@
   font-weight: bolder;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .casestudyWrapper {
+    width: 100%;
+  }
+
+  .casestudyWrapper h3 {
+    font-size: 1rem;
+  }
+
+  .casestudyHeader h1 {
+    font-size: 2rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+  }
+
+  .casestudyHeader button {
+    padding: 0.5rem;
+    font-size: smaller;
+    width: fit-content;
+  }
+
+  .imageCard {
+    width: 100%;
+    height: auto;
+  }
+
+  .statsSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .statsSection i {
+    font-size: 2rem;
+  }
+}
