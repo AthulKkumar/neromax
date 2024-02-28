@@ -111,6 +111,8 @@
     margin-left: 1rem;
     gap: 2rem;
     height: 100%;
+
+    width: -webkit-fill-available;
   }
 
   .companyDetails section {
