@@ -103,14 +103,15 @@ li {
 
 @media screen and (max-width: 768px) {
   .topNavbarWrapper {
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
+    display: none;
   }
 
-  .topNavbarWrapper:first-child {
+  /* .topNavbarWrapper:first-child {
     flex-direction: column;
   }
 
   .topNavbarWrapper span {
     font-size: 0.8rem;
-  }
+  } */
 }
