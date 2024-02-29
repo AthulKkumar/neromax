@@ -49,7 +49,10 @@ const CaseStudy = () => {
         <section className={styles.statsSection}>
           {statsData.map((data, index) => {
             return (
-              <div className="card d-flex flex-column justify-content-center align-items-center">
+              <div
+                className="card d-flex flex-column justify-content-center align-items-center"
+                key={index}
+              >
                 {/* <img src="..." className="card-img-top" alt="..." /> */}
                 <i class="bi bi-emoji-smile"></i>
                 <div

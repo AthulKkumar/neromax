@@ -64,6 +64,7 @@ const Process = () => {
         a lot of time. The best web designers are the ones who take the time to
         get this process right.
       </p>
+      <Accordion cardDataDetails={cardDataDetails} />
       <ul className={styles.processCardWrapper}>
         <div className={styles.processCardsWrapper}>
           {cardData.map((card, index) => {
@@ -78,7 +79,7 @@ const Process = () => {
                 <div
                   className={`card d-flex flex-column justify-content-center align-items-center p-2 position-relative ${styles.processCardDiv}`}
                 >
-                  <span class="position-absolute top-0 start-100 translate-middle p-2 text-bg-light border border-light rounded-circle">
+                  <span className="position-absolute top-0 start-100 translate-middle p-2 text-bg-light border border-light rounded-circle">
                     {index + 1}
                   </span>
                   <img src={card.img} className="card-img-top" alt="..." />
@@ -125,5 +126,46 @@ const Process = () => {
     </div>
   );
 };
+
+function Accordion({ cardDataDetails }) {
+  return (
+    <>
+      {cardDataDetails.map((card, index) => {
+        return (
+          <div
+            className={`accordion ${styles.accordion}`}
+            id="accordionExample"
+            key={index}
+          >
+            <div className="accordion-item">
+              <h2 className={`accordion-header ${styles.accordionHeader}`}>
+                <button
+                  className="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <img src={card.img} alt="" srcset="" />
+                  {card.title}
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                className="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div className={`accordion-body ${styles.accordionBody}`}>
+                  {card.description}
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+}
 
 export default Process;

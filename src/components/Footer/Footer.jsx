@@ -13,28 +13,28 @@ const Footer = () => {
         <section className={styles.footerInfo}>
           <h4>Company</h4>
 
-          {companyDetails.map((item) => {
-            return <li>{item}</li>;
+          {companyDetails.map((item, indx) => {
+            return <li key={indx}>{item}</li>;
           })}
         </section>
         <section className={styles.footerInfo}>
           <h4>Services</h4>
-          {services.map((item) => {
-            return <li>{item}</li>;
+          {services.map((item, indx) => {
+            return <li key={indx}>{item}</li>;
           })}
         </section>
         <section className={styles.footerInfo}>
           <h4>Contact</h4>
-          {contact.map((item) => {
-            return <li>{item}</li>;
+          {contact.map((item, indx) => {
+            return <li key={indx}>{item}</li>;
           })}
         </section>
         <section className={styles.footerInfo}>
           <h4>Community</h4>
 
           <div className={styles.communitySection}>
-            {Community.map((item) => {
-              return <span>{item}</span>;
+            {Community.map((item, indx) => {
+              return <span key={indx}>{item}</span>;
             })}
           </div>
           <li>

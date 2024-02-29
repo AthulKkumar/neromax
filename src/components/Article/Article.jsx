@@ -75,9 +75,10 @@ const Article = () => {
             {company.map((company, index) => {
               return (
                 <img
+                  key={index}
                   src={company.img}
                   alt="..."
-                  class={`img-fluid ${styles.companyImg}`}
+                  className={`img-fluid ${styles.companyImg}`}
                 />
               );
             })}

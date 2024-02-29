@@ -15,7 +15,7 @@ const Carousel = () => {
             <section className={styles.carouselContent}>
               <div
                 className="card-img-overlay d-flex flex-column justify-content-center align-items-start text-light "
-                style={{ marginLeft: "12rem" }}
+                // style={{ marginLeft: "12rem" }}
               >
                 <h2 className="card-title ">New Online Task Management</h2>
                 <h1 className="card-text">Manage Less Do More</h1>

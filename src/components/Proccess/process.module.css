@@ -131,11 +131,15 @@
   align-items: center;
 }
 
+.accordion {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .processWrapperPara {
     width: 100%;
   }
-  .processCardDiv {
+  /* .processCardDiv {
     width: 100%;
   }
   .processCardDetailsContent {
@@ -147,18 +151,45 @@
   .processcardDetails img {
     width: 100%;
     height: 30vh;
-  }
+  } */
 
-  .processCardsWrapper {
+  /* .processCardsWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-  }
+  } */
 
   .processCardDetailsWrapper {
     padding: 1rem;
     width: min-content;
+  }
+  .accordion {
+    display: block;
+    width: -webkit-fill-available;
+  }
+
+  .processCardWrapper {
+    display: none;
+  }
+
+  .accordionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: #ffffff80;
+  }
+
+  .accordionHeader img {
+    width: 10vh;
+    height: 10vh;
+    object-fit: contain;
   }
 }
